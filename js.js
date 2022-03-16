@@ -133,5 +133,36 @@ let phone = "iPhone";
 
 isIphoneUser = phone === "iPhone" ? "True" : "False";
 
-console.log(isIphoneUser)
+console.log(isIphoneUser);
 
+// Vardas prasisuka 10 kartų
+
+for(let n=0; n < 10; n++ ){
+    console.log("Tadas");
+}
+
+// tiek vardas, tiek kiek kartų kartos yra kintamieji
+
+let name1 = "Tadas";
+let i = 2;
+
+for(i; i < 10; i++ ){
+    console.log(name1)
+}
+
+// Prie savo vardo atspaudink ir 'i' raidę
+
+let name2 = "Swedaz";
+let a = 3;
+
+for(a; a < 10; a++ ){
+    console.log(name2 + a)
+}
+
+// Parašyk for loopą, kuris atspaudins nuo 10 iki 1 countdown konsolėje
+
+let c = 10;
+
+for(c; c >= 1; c-- ){
+    console.log(c)
+}
